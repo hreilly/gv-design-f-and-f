@@ -24,11 +24,11 @@ function gvff_plan_init(){
 
 // Pass PHP variables and functions to JS
    wp_localize_script( 'gvff_plan_script', 'gvff_plan_vars', array(
-		 'startPage'  => $paged,
-		 'maxPages'   => $max,
-  	 'pagination' => gv_pagination(),
-     'ajax_url'   => admin_url('admin-ajax.php'),
-	    )
+	'startPage'  => $paged,
+	'maxPages'   => $max,
+	'pagination' => gv_pagination(),
+     	'ajax_url'   => admin_url('admin-ajax.php'),
+	)
    );
 }
 add_action('template_redirect', 'gvff_plan_init');
