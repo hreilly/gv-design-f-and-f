@@ -4,7 +4,7 @@
  * Description: Manage and consolidate custom AJAX filter and search forms.
  * Version: 1.0
  * Author: Hannah Reilly
- * Author URI: https://www.gvhomes.com/
+ * Author URI: https://github.com/hreilly
  */
 
 
